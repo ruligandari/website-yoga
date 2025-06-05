@@ -42,7 +42,7 @@
         ***********************************-->
         <div class="nav-header">
             <a href="index.html" class="brand-logo">
-                <h4 class="text-white">Web Guru</h4>
+                <h4 class="text-white">Website Evaluasi</h4>
             </a>
 
             <div class="nav-control">
@@ -81,15 +81,7 @@
                                     <i class="mdi mdi-account"></i>
                                 </a>
                                 <div class="dropdown-menu dropdown-menu-right">
-                                    <a href="<?= base_url('assets') ?>/app-profile.html" class="dropdown-item">
-                                        <i class="icon-user"></i>
-                                        <span class="ml-2">Profile </span>
-                                    </a>
-                                    <a href="<?= base_url('assets') ?>/email-inbox.html" class="dropdown-item">
-                                        <i class="icon-envelope-open"></i>
-                                        <span class="ml-2">Inbox </span>
-                                    </a>
-                                    <a href="<?= base_url('assets') ?>/page-login.html" class="dropdown-item">
+                                    <a href="<?= base_url('logout') ?>" class="dropdown-item">
                                         <i class="icon-key"></i>
                                         <span class="ml-2">Logout </span>
                                     </a>
