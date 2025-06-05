@@ -48,7 +48,7 @@ class ApiController extends BaseController
     }
     public function readSoal()
     {
-        $data = $this->soalModel->orderBy('id', 'DESC')->findAll();
+        $data = $this->soalModel->orderBy('id')->findAll();
 
         // return json
         return $this->response->setJSON($data);
