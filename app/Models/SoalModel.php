@@ -46,7 +46,6 @@ class SoalModel extends Model
     public function getRandomSoalPreTest($limit = 10, $jenis_soal)
     {
         return $this->where('jenis_soal', $jenis_soal)
-            ->orderBy('RAND()')
             ->findAll($limit);
     }
 }
