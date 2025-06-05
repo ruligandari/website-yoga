@@ -12,7 +12,7 @@ class DataSiswaController extends BaseController
     public function __construct()
     {
         $this->siswaModel = new \App\Models\DataSiswaModel();
-        $this->dataPreTestModel = new \App\Models\DataPreTest();
+        $this->dataPreTestModel = new \App\Models\DataPretest();
     }
     public function index()
     {
