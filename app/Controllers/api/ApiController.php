@@ -19,7 +19,7 @@ class ApiController extends BaseController
         $this->siswaModel = new \App\Models\DataSiswaModel();
         $this->pengaturanModel = new \App\Models\PengaturanModel();
         $this->dataPostTestModel = new \App\Models\DataPostest();
-        $this->dataPreTestModel = new \App\Models\DataPreTest();
+        $this->dataPreTestModel = new \App\Models\DataPretest();
     }
 
     public function index()
