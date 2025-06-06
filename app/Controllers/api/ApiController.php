@@ -4,6 +4,7 @@ namespace App\Controllers\Api;
 
 use App\Controllers\BaseController;
 use CodeIgniter\HTTP\ResponseInterface;
+use PHPUnit\Util\Json;
 
 class ApiController extends BaseController
 {
@@ -70,11 +71,16 @@ class ApiController extends BaseController
         return $this->response->setJSON($data);
     }
 
+    public function readSoalPostId($id)
+    {
+        $data = $this->soalModel->find($id);
+        // return json
+        return $this->response->setJSON($data);
+    }
+
     public function readSoalPost()
     {
-        $id = $this->request->getPost('id');
-
-        $data = $this->soalModel->find($id);
+        $data = $this->soalModel->findAll();
         // return json
         return $this->response->setJSON($data);
     }

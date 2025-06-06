@@ -39,6 +39,7 @@ $routes->group('api', function ($routes) {
 
     $routes->get('readsoal-by-id/(:num)', 'api\ApiController::readSoalById/$1');
     $routes->get('readsoal-by-id', 'api\ApiController::readSoal');
+    $routes->post('readsoal-by-id/(:num)', 'api\ApiController::readSoalPostId/$1');
     $routes->post('readsoal-by-id', 'api\ApiController::readSoalPost');
 
     $routes->post('readnilai-pre-test', 'api\ApiController::readNilaiPreTest');
