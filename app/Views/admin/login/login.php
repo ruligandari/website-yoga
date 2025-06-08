@@ -33,7 +33,7 @@
                             <!-- image logo -->
                             <div class="col-12 d-flex justify-content-between align-items-center pl-5 pr-5 mt-4">
                                 <img src="<?= base_url('assets') ?>/images/logo-fkom.png" alt="Logo" class="img-fluid" style="width: 100px; height: auto;">
-                                <img src="<?= base_url('assets') ?>/images/logo-sd.png" alt="Logo" class="img-fluid" style="width: 150px; height: auto;">
+                                <img src="<?= base_url('assets') ?>/images/uniku.png" alt="Logo" class="img-fluid" style="width: 100px; height: auto;">
                             </div>
 
 
